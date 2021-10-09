@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled (Backup 1633719758354)</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="assets/codemirror/lib/codemirror.css">
+    <script src="assets/codemirror/mode/clike/clike.js"></script>
+    <link rel="stylesheet" href="assets/codemirror/theme/dracula.css">
+    <link rel="stylesheet" href="assets/codemirror/theme/zenburn.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Problem Name</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SOLUTION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" style="height: 100%;">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">1. Jump Game</h4>
+                        <h6 class="text-muted card-subtitle mb-2">Easy</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error exercitationem praesentium eligendi consequatur. Provident repudiandae cupiditate in et ratione, porro aspernatur ea libero similique ex minima corporis vero iure quod?</p>
+                        <div class="progress">
+                            <div class="progress-bar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">Submission Rate</div>
+                        </div><code></code><a class="card-link" href="#">Blog</a><a class="card-link" href="#">Discussion</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"><select class="btn btn-dark" style="width: 100%;font-style: italic;font-family: 'Roboto Mono', monospace;">
+                    <optgroup label="Select a language of your preferance">
+                        <option value="12" selected="">C++</option>
+                        <option value="13">Java</option>
+                        <option value="14">Python</option>
+                    </optgroup>
+                </select>
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Code</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Upload</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" role="tabpanel" id="tab-1">
+                          <div id="Editor">
+
+                          </div>
+                          <script>
+                            var editor = CodeMirror(document.getElementById("Editor"),{
+                              value: "#include<iostream>\nusing namespace std;\n\nint main()\n{\tcout<<\"Hello World\"<<endl;\t\nreturn 0;\n}",
+                              mode: "clike",
+                              lineNumbers: true,
+                              theme: 'zenburn',
+                              tabSize: 4
+                            });
+                          </script>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <p>Content for tab 2.</p>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="tab-3">
+                            <p>Content for tab 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
